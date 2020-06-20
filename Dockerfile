@@ -1,6 +1,5 @@
 
 FROM debian:9.8
-LABEL maintainer="mdoulaty@gmail.com"
 
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
@@ -38,3 +37,22 @@ RUN git clone --depth 1 https://github.com/kaldi-asr/kaldi.git /opt/kaldi && \
     make -j $(nproc)
 
 WORKDIR /opt/kaldi/
+
+ARG NB_USER=iitm
+ARG NB_UID=1000
+ENV USER ${NB_USER}
+ENV NB_UID ${NB_UID}
+ENV HOME /home/${NB_USER}
+
+RUN adduser --disabled-password \
+    --gecos "Default user" \
+    --uid ${NB_UID} \
+    ${NB_USER}
+    
+# Make sure the contents of our repo are in ${HOME}
+COPY . ${HOME}
+USER root
+RUN chown -R ${NB_UID} ${HOME}
+USER ${NB_USER}
+
+RUN pip3 install --no-cache-dir notebook==5.*
