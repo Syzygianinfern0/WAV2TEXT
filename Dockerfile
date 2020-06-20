@@ -55,4 +55,4 @@ USER root
 RUN chown -R ${NB_UID} ${HOME}
 USER ${NB_USER}
 
-RUN pip3 install --no-cache-dir notebook==5.*
+RUN pip install --no-cache-dir notebook==5.*
