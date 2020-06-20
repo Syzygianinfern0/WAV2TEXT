@@ -1,0 +1,24 @@
+# online2-wav-nnet3-latgen-faster --do-endpointing=false --frames-per-chunk=20 --extra-left-context-initial=0 --online=true --frame-subsampling-factor=3 --config=exp/chain/tdnn_online/conf/online.conf --min-active=200 --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=1.0 --word-symbol-table=exp/chain/tree_a_sp/graph_tg/words.txt exp/chain/tdnn_online/final.mdl exp/chain/tree_a_sp/graph_tg/HCLG.fst ark:data/test/split1/1/spk2utt "ark,s,cs:wav-copy scp,p:data/test/split1/1/wav.scp ark:- |" "ark:|lattice-scale --acoustic-scale=10.0 ark:- ark:- | gzip -c >exp/chain/tdnn_online/decode/lat.1.gz" 
+# Started at Fri Jun 19 20:37:40 IST 2020
+#
+online2-wav-nnet3-latgen-faster --do-endpointing=false --frames-per-chunk=20 --extra-left-context-initial=0 --online=true --frame-subsampling-factor=3 --config=exp/chain/tdnn_online/conf/online.conf --min-active=200 --max-active=7000 --beam=15.0 --lattice-beam=6.0 --acoustic-scale=1.0 --word-symbol-table=exp/chain/tree_a_sp/graph_tg/words.txt exp/chain/tdnn_online/final.mdl exp/chain/tree_a_sp/graph_tg/HCLG.fst ark:data/test/split1/1/spk2utt 'ark,s,cs:wav-copy scp,p:data/test/split1/1/wav.scp ark:- |' 'ark:|lattice-scale --acoustic-scale=10.0 ark:- ark:- | gzip -c >exp/chain/tdnn_online/decode/lat.1.gz' 
+LOG (online2-wav-nnet3-latgen-faster[5.5.0-e4329]:ComputeDerivedVars():ivector-extractor.cc:183) Computing derived variables for iVector extractor
+LOG (online2-wav-nnet3-latgen-faster[5.5.0-e4329]:ComputeDerivedVars():ivector-extractor.cc:204) Done.
+LOG (online2-wav-nnet3-latgen-faster[5.5.0-e4329]:RemoveOrphanNodes():nnet-nnet.cc:948) Removed 1 orphan nodes.
+LOG (online2-wav-nnet3-latgen-faster[5.5.0-e4329]:RemoveOrphanComponents():nnet-nnet.cc:847) Removing 2 orphan components.
+LOG (online2-wav-nnet3-latgen-faster[5.5.0-e4329]:Collapse():nnet-utils.cc:1378) Added 1 components, removed 2
+LOG (online2-wav-nnet3-latgen-faster[5.5.0-e4329]:CompileLooped():nnet-compile-looped.cc:345) Spent 0.00825095 seconds in looped compilation.
+wav-copy scp,p:data/test/split1/1/wav.scp ark:- 
+LOG (wav-copy[5.5.0-e4329]:main():wav-copy.cc:68) Copied 1 wave files
+lattice-scale --acoustic-scale=10.0 ark:- ark:- 
+text_1 जिन्हें मेरा भारत महान SIL 
+LOG (online2-wav-nnet3-latgen-faster[5.5.0-e4329]:main():online2-wav-nnet3-latgen-faster.cc:286) Decoded utterance text_1
+LOG (online2-wav-nnet3-latgen-faster[5.5.0-e4329]:Print():online-timing.cc:36) Timing stats: real-time factor was 1.02562 (note: this cannot be less than one.)
+LOG (online2-wav-nnet3-latgen-faster[5.5.0-e4329]:Print():online-timing.cc:38) Average delay was 0.0546629 seconds.
+LOG (online2-wav-nnet3-latgen-faster[5.5.0-e4329]:Print():online-timing.cc:42) Percentage of time spent idling was 89.4711
+LOG (online2-wav-nnet3-latgen-faster[5.5.0-e4329]:Print():online-timing.cc:44) Longest delay was 0.0546629 seconds for utterance 'text_1'
+LOG (online2-wav-nnet3-latgen-faster[5.5.0-e4329]:main():online2-wav-nnet3-latgen-faster.cc:292) Decoded 1 utterances, 0 with errors.
+LOG (online2-wav-nnet3-latgen-faster[5.5.0-e4329]:main():online2-wav-nnet3-latgen-faster.cc:294) Overall likelihood per frame was 1.10181 per frame over 71 frames.
+LOG (lattice-scale[5.5.0-e4329]:main():lattice-scale.cc:107) Done 1 lattices.
+# Accounting: time=1 threads=1
+# Ended (code 0) at Fri Jun 19 20:37:41 IST 2020, elapsed time 1 seconds

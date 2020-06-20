@@ -1,0 +1,7 @@
+# nnet3-chain-subset-egs --n=400 ark:exp/chain/tdnn1a_sp/egs/valid_all.cegs ark:exp/chain/tdnn1a_sp/egs/valid_diagnostic.cegs 
+# Started at Fri May  3 19:08:00 IST 2019
+#
+nnet3-chain-subset-egs --n=400 ark:exp/chain/tdnn1a_sp/egs/valid_all.cegs ark:exp/chain/tdnn1a_sp/egs/valid_diagnostic.cegs 
+LOG (nnet3-chain-subset-egs[5.5.0-e4329]:main():nnet3-chain-subset-egs.cc:91) Selected a subset of 400 out of 3843 nnet3+chain training examples 
+# Accounting: time=2 threads=1
+# Ended (code 0) at Fri May  3 19:08:02 IST 2019, elapsed time 2 seconds
