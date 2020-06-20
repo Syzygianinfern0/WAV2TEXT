@@ -16,6 +16,7 @@ RUN apt-get update && \
         subversion \
         python2.7 \
         python3 \
+	python3-pip
         zlib1g-dev \
         ca-certificates \
         gfortran \
@@ -23,6 +24,8 @@ RUN apt-get update && \
         ffmpeg \
 	vim && \
     rm -rf /var/lib/apt/lists/*
+
+RUN pip3 install --no-cache-dir notebook==5.*
 
 RUN ln -s /usr/bin/python2.7 /usr/bin/python 
 
@@ -54,5 +57,3 @@ COPY . ${HOME}
 USER root
 RUN chown -R ${NB_UID} ${HOME}
 USER ${NB_USER}
-
-RUN pip install --no-cache-dir notebook==5.*
