@@ -10,7 +10,12 @@ RUN apt update && \
 	autoconf \
 	libtool \
 	subversion \
-	git
+	git \
+	zliblg-dev \
+	unzip \
+	gfortran \
+	python2.7 \
+	python3 
 
 RUN git clone --depth 1 https://github.com/kaldi-asr/kaldi.git /opt/kaldi && \
 	cd /opt/kaldi && \
