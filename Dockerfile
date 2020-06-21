@@ -25,8 +25,6 @@ RUN apt-get update && \
 	vim && \
     rm -rf /var/lib/apt/lists/*
 
-RUN pip3 install --no-cache-dir notebook==5.*
-
 RUN ln -s /usr/bin/python2.7 /usr/bin/python 
 
 RUN git clone --depth 1 https://github.com/kaldi-asr/kaldi.git /opt/kaldi && \
