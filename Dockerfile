@@ -17,7 +17,7 @@ RUN apt update && \
 	python2.7 \
 	python3 
 
-RUN apt install python3-pip
+RUN apt install -y python3-pip
 
 RUN pip install --no-cache --upgrade pip && \
     pip install --no-cache notebook
