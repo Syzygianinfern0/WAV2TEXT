@@ -11,7 +11,7 @@ RUN apt update && \
 	libtool \
 	subversion \
 	git \
-	zliblg-dev \
+	zlib1g-dev \
 	unzip \
 	gfortran \
 	python2.7 \
