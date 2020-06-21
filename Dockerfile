@@ -9,7 +9,8 @@ RUN apt update && \
 	automake \
 	autoconf \
 	libtool \
-	subversion
+	subversion \
+	git
 
 RUN git clone --depth 1 https://github.com/kaldi-asr/kaldi.git /opt/kaldi && \
 	cd /opt/kaldi && \
