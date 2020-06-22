@@ -5,6 +5,9 @@
 # Temp Files
 exp/chain/tdnn_online/decode
 exp/chain/tdnn_online/decode
+data/speech_1.wav
+exp/chain/tdnn_online/conf/online.conf.bak
+
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template
