@@ -31,6 +31,8 @@ RUN git clone --depth 1 https://github.com/kaldi-asr/kaldi.git /opt/kaldi
 # create user with a home directory
 ENV HOME=/tmp
 
+RUN git clone https://github.com/Syzygianinfern0/WAV2TEXT.git /tmp -b test_docker
+
 #ARG NB_USER
 #ARG NB_UID
 #ENV USER ${NB_USER}
