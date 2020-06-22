@@ -29,19 +29,18 @@ RUN git clone --depth 1 https://github.com/kaldi-asr/kaldi.git /opt/kaldi
 #	cd /opt/kaldi/src && ./configure --shared && make depend -j $(nproc) && make -j $(nproc)
 	
 # create user with a home directory
-ENV HOME=/tmp
+#ENV HOME=/tmp
 
-RUN git clone https://github.com/Syzygianinfern0/WAV2TEXT.git /tmp -b test_docker
+ARG NB_USER
+ARG NB_UID
+ENV USER ${NB_USER}
+ENV HOME /home/${NB_USER}
 
-#ARG NB_USER
-#ARG NB_UID
-#ENV USER ${NB_USER}
-#ENV HOME /home/${NB_USER}
+RUN adduser --disabled-password \
+    --gecos "Default user" \
+    --uid ${NB_UID} \
+    ${NB_USER}
+WORKDIR ${HOME}
+USER ${USER}
 
-#RUN adduser --disabled-password \
-#    --gecos "Default user" \
-#    --uid ${NB_UID} \
-#    ${NB_USER}
-#WORKDIR ${HOME}
-#USER ${USER}
-
+RUN git clone https://github.com/Syzygianinfern0/WAV2TEXT.git ${HOME} -b test_docker
