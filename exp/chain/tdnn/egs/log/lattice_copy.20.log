@@ -1,7 +1,0 @@
-# lattice-copy "--include=cat exp/chain/tdnn1a_sp/egs/valid_uttlist exp/chain/tdnn1a_sp/egs/train_subset_uttlist |" --ignore-missing "ark:gunzip -c exp/chain/tri2_train_sp_lats/lat.20.gz |" ark,scp:exp/chain/tdnn1a_sp/egs/lat_special.20.ark,exp/chain/tdnn1a_sp/egs/lat_special.20.scp 
-# Started at Fri May  3 19:05:31 IST 2019
-#
-lattice-copy '--include=cat exp/chain/tdnn1a_sp/egs/valid_uttlist exp/chain/tdnn1a_sp/egs/train_subset_uttlist |' --ignore-missing 'ark:gunzip -c exp/chain/tri2_train_sp_lats/lat.20.gz |' ark,scp:exp/chain/tdnn1a_sp/egs/lat_special.20.ark,exp/chain/tdnn1a_sp/egs/lat_special.20.scp 
-LOG (lattice-copy[5.5.0-e4329]:CopySubsetLattices():lattice-copy.cc:122)  Wrote 59 out of 6530 utterances.
-# Accounting: time=6 threads=1
-# Ended (code 0) at Fri May  3 19:05:38 IST 2019, elapsed time 6 seconds
