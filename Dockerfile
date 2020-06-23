@@ -41,5 +41,5 @@ RUN adduser --disabled-password \
 WORKDIR ${HOME}
 USER ${USER}
 
-RUN git clone https://github.com/Syzygianinfern0/WAV2TEXT.git ${HOME}/WAV2TEXT
-RUN echo "Revision: ab667dd21b73172e4a02e0bcc7ffc2e2467ca915"
+RUN git clone https://github.com/Syzygianinfern0/WAV2TEXT.git ${HOME}/WAV2TEXT -b master && \
+	echo "Revision: aa8a080b0cca2a10aac1d8b1cb284c856ad6710d"
