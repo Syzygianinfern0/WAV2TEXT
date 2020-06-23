@@ -1,0 +1,7 @@
+- repo: local
+  hooks:
+    - id: dockerfile-revision
+      name: dockerfile-revision
+      entry: docker_revision.sh
+      language: script
+      always_run: true
