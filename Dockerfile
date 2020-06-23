@@ -1,4 +1,3 @@
-RUN echo "Revision: 33d97418aa4997e50c24ffdeb1ab13f61c32f18f
 # Maintainer: spsharan2000@gmail.com
 
 FROM ubuntu:18.04
@@ -43,3 +42,4 @@ WORKDIR ${HOME}
 USER ${USER}
 
 RUN git clone https://github.com/Syzygianinfern0/WAV2TEXT.git ${HOME}/WAV2TEXT
+RUN echo "Revision: 6df3cbcca378ec35103439b186347ebb90fbb903
