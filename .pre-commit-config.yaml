@@ -4,3 +4,4 @@
       name: dockerfile-revision
       entry: docker_revision.sh
       language: script
+      always_run: true
