@@ -1,2 +1,2 @@
-model_left_context=16
-model_right_context=10
+model_left_context=28
+model_right_context=28

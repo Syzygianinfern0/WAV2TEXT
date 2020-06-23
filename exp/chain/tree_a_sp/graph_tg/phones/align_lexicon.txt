@@ -1081,7 +1081,6 @@ SIL SIL SIL_S
 आयला आयला aa_B y_I a_I l_I aa_E
 आयवर्ग आयवर्ग aa_B y_I a_I w_I a_I r_I g_E
 आया आया aa_B y_I aa_E
-आयाSIL आयाSIL aa_B y_I aa_I ax_I ou_E
 आयाएेसी आयाएेसी aa_B y_I aa_I ee_I ee_I s_I ii_E
 आयात आयात aa_B y_I aa_I t_E
 आयातित आयातित aa_B y_I aa_I t_I i_I t_E
@@ -2392,7 +2391,7 @@ SIL SIL SIL_S
 औरि औरि ou_B r_I i_E
 औरैया औरैया ou_B r_I ei_I y_I aa_E
 औरों औरों ou_B r_I o_I q_E
-औऱ औऱ ou_B rx_E
+औऱ औऱ ou_B r_E
 औश्कर औश्कर ou_B sh_I k_I a_I r_E
 औषधीय औषधीय ou_B sx_I a_I dh_I ii_I y_E
 औसत औसत ou_B s_I a_I t_E
@@ -2992,8 +2991,6 @@ SIL SIL SIL_S
 कास्ट्स कास्ट्स k_B aa_I s_I tx_I s_E
 कास्त्रो कास्त्रो k_B aa_I s_I t_I r_I o_E
 कि कि k_B i_E
-कि<horn> कि<horn> k_B i_I nk_I aa_E
-किsया किsया k_B i_I y_I aa_E
 किंकर्तव्यविमूढ़ किंकर्तव्यविमूढ़ k_B i_I q_I k_I a_I r_I t_I a_I w_I y_I a_I w_I i_I m_I uu_I dxhq_E
 किंग किंग k_B i_I q_I g_E
 किंगस किंगस k_B i_I q_I g_I a_I s_E
@@ -3673,7 +3670,7 @@ SIL SIL SIL_S
 खिलाड़ियों खिलाड़ियों kh_B i_I l_I aa_I dxq_I i_I y_I o_I q_E
 खिलाड़ी खिलाड़ी kh_B i_I l_I aa_I dxq_I ii_E
 खिलाडियों खिलाडियों kh_B i_I l_I aa_I dx_I i_I y_I o_I q_E
-खिलाडि़यों खिलाडि़यों kh_B i_I l_I aa_I dx_I i_I nk_I y_I o_I q_E
+खिलाडि़यों खिलाडि़यों kh_B i_I l_I aa_I dx_I i_I y_I o_I q_E
 खिलाडी खिलाडी kh_B i_I l_I aa_I dx_I ii_E
 खिलाना खिलाना kh_B i_I l_I aa_I n_I aa_E
 खिलाने खिलाने kh_B i_I l_I aa_I n_I ee_E
@@ -4258,7 +4255,7 @@ SIL SIL SIL_S
 घरिवालों घरिवालों gh_B a_I r_I i_I w_I aa_I l_I o_I q_E
 घरेलू घरेलू gh_B a_I r_I ee_I l_I uu_E
 घरों घरों gh_B a_I r_I o_I q_E
-घऱ घऱ gh_B a_I rx_E
+घऱ घऱ gh_B a_I r_E
 घसीटने घसीटने gh_B a_I s_I ii_I tx_I n_I ee_E
 घाट घाट gh_B aa_I tx_E
 घाटियों घाटियों gh_B aa_I tx_I i_I y_I o_I q_E
@@ -4473,8 +4470,8 @@ SIL SIL SIL_S
 चाहेंगे चाहेंगे c_B aa_I h_I ee_I q_I g_I ee_E
 चाहेगा चाहेगा c_B aa_I h_I ee_I g_I aa_E
 चाहेगी चाहेगी c_B aa_I h_I ee_I g_I ii_E
-चाहे़ग चाहे़ग c_B aa_I h_I ee_I nk_I a_I g_E
-चाहे़गे चाहे़गे c_B aa_I h_I ee_I nk_I g_I ee_E
+चाहे़ग चाहे़ग c_B aa_I h_I ee_I g_E
+चाहे़गे चाहे़गे c_B aa_I h_I ee_I g_I ee_E
 चिंतक चिंतक c_B i_I q_I t_I a_I k_E
 चिंतन चिंतन c_B i_I q_I t_I a_I n_E
 चिंतनीय चिंतनीय c_B i_I q_I t_I a_I n_I ii_I y_E
@@ -5121,9 +5118,7 @@ SIL SIL SIL_S
 जायेंगी जायेंगी j_B aa_I y_I ee_I q_I g_I ii_E
 जायेंगे जायेंगे j_B aa_I y_I ee_I q_I g_I ee_E
 जायेगा जायेगा j_B aa_I y_I ee_I g_I aa_E
-जायेगाSIL जायेगाSIL j_B aa_I y_I ee_I g_I aa_I ax_I ou_E
 जायेगी जायेगी j_B aa_I y_I ee_I g_I ii_E
-जायेगीSIL जायेगीSIL j_B aa_I y_I ee_I g_I ii_I ax_I ou_E
 जायेगें जायेगें j_B aa_I y_I ee_I g_I ee_I q_E
 जार जार j_B aa_I r_E
 जारत जारत j_B aa_I r_I a_I t_E
@@ -5340,7 +5335,7 @@ SIL SIL SIL_S
 जेलों जेलों j_B ee_I l_I o_I q_E
 जेसन जेसन j_B ee_I s_I a_I n_E
 जेहन जेहन j_B ee_I h_I a_I n_E
-जेह़न जेह़न j_B ee_I h_I a_I nk_I a_I n_E
+जेह़न जेह़न j_B ee_I h_I a_I n_E
 जे०पी० जे०पी० j_B ee_I p_I ii_E
 जैक जैक j_B ei_I k_E
 जैकेट जैकेट j_B ei_I k_I ee_I tx_E
@@ -6280,7 +6275,6 @@ SIL SIL SIL_S
 तेमाल तेमाल t_B ee_I m_I aa_I l_E
 तेरवे तेरवे t_B ee_I r_I w_I ee_E
 तेरह तेरह t_B ee_I r_I a_I h_E
-तेरह4 तेरह4 t_B ee_I r_I h_I a_I zh_E
 तेरा तेरा t_B ee_I r_I aa_E
 तेराह तेराह t_B ee_I r_I aa_I h_E
 तेरिाह तेरिाह t_B ee_I r_I i_I aa_I h_E
@@ -6382,7 +6376,6 @@ SIL SIL SIL_S
 थियटेर थियटेर th_B i_I y_I tx_I ee_I r_E
 थिरके थिरके th_B i_I r_I k_I ee_E
 थी थी th_B ii_E
-थीSIL थीSIL th_B ii_I ax_I ou_E
 थीं थीं th_B ii_I q_E
 थीअभी थीअभी th_B ii_I a_I bh_I ii_E
 थीअरबाज थीअरबाज th_B ii_I a_I r_I b_I aa_I j_E
@@ -6393,7 +6386,6 @@ SIL SIL SIL_S
 थूक थूक th_B uu_I k_E
 थूकने थूकने th_B uu_I k_I n_I ee_E
 थे थे th_B ee_E
-थेSIL थेSIL th_B ee_I ax_I ou_E
 थेगौरतलब थेगौरतलब th_B ee_I g_I ou_I r_I t_I a_I l_I a_I b_E
 थेफ्ट थेफ्ट th_B ee_I ph_I tx_E
 थेरेपी थेरेपी th_B ee_I r_I ee_I p_I ii_E
@@ -7659,7 +7651,7 @@ SIL SIL SIL_S
 न्योछावर न्योछावर n_B y_I o_I ch_I aa_I w_I a_I r_E
 न्योता न्योता n_B y_I o_I t_I aa_E
 न्होंने न्होंने n_B h_I o_I q_I n_I ee_E
-ऩॉर्थ ऩॉर्थ nd_B ax_I r_I th_E
+ऩॉर्थ ऩॉर्थ n_B ax_I r_I th_E
 पंकजा पंकजा p_B a_I q_I k_I a_I j_I aa_E
 पंक्ति पंक्ति p_B a_I q_I k_I t_I i_E
 पंगा पंगा p_B a_I q_I g_I aa_E
@@ -8312,7 +8304,7 @@ SIL SIL SIL_S
 पीड़ा पीड़ा p_B ii_I dxq_I aa_E
 पीड़ित पीड़ित p_B ii_I dxq_I i_I t_E
 पीड़िता पीड़िता p_B ii_I dxq_I i_I t_I aa_E
-पीड़ि़त पीड़ि़त p_B ii_I dxq_I i_I nk_I a_I t_E
+पीड़ि़त पीड़ि़त p_B ii_I dxq_I i_I t_E
 पीढ़ियों पीढ़ियों p_B ii_I dxhq_I i_I y_I o_I q_E
 पीढ़ी पीढ़ी p_B ii_I dxhq_I ii_E
 पुख्ता पुख्ता p_B u_I kh_I t_I aa_E
@@ -9384,7 +9376,7 @@ SIL SIL SIL_S
 बडा बडा b_B a_I dx_I aa_E
 बडी बडी b_B a_I dx_I ii_E
 बडे बडे b_B a_I dx_I ee_E
-बडे़ बडे़ b_B a_I dx_I ee_I nk_E
+बडे़ बडे़ b_B a_I dxq_I ee_E
 बढकर बढकर b_B a_I dxh_I k_I a_I r_E
 बढगा बढगा b_B a_I dxh_I g_I aa_E
 बढत बढत b_B a_I dxh_I a_I t_E
@@ -9516,7 +9508,6 @@ SIL SIL SIL_S
 बयान बयान b_B a_I y_I aa_I n_E
 बयानों बयानों b_B a_I y_I aa_I n_I o_I q_E
 बयान्वे बयान्वे b_B a_I y_I aa_I n_I w_I ee_E
-बयान्वे4 बयान्वे4 b_B a_I y_I aa_I n_I w_I ee_I zh_E
 बयालीस बयालीस b_B a_I y_I aa_I l_I ii_I s_E
 बयालीसवें बयालीसवें b_B a_I y_I aa_I l_I ii_I s_I w_I ee_I q_E
 बयासी बयासी b_B a_I y_I aa_I s_I ii_E
@@ -10124,7 +10115,7 @@ SIL SIL SIL_S
 बॉलिवुड बॉलिवुड b_B ax_I l_I i_I w_I u_I dx_E
 बॉलीवुड बॉलीवुड b_B ax_I l_I ii_I w_I u_I dx_E
 बॉस बॉस b_B ax_I s_E
-बॉ़स बॉ़स b_B ax_I nk_I a_I s_E
+बॉ़स बॉ़स b_B ax_I aa_I s_E
 बोंगयांग बोंगयांग b_B o_I q_I g_I a_I y_I aa_I q_I g_E
 बोझ बोझ b_B o_I jh_E
 बोतल बोतल b_B o_I t_I a_I l_E
@@ -10418,7 +10409,6 @@ SIL SIL SIL_S
 भुगतना भुगतना bh_B u_I g_I a_I t_I n_I aa_E
 भुगता भुगता bh_B u_I g_I t_I aa_E
 भुगतान भुगतान bh_B u_I g_I t_I aa_I n_E
-भुगतानSIL भुगतानSIL bh_B u_I g_I t_I aa_I n_I ax_I ou_E
 भुगतानों भुगतानों bh_B u_I g_I t_I aa_I n_I o_I q_E
 भुगतान् भुगतान् bh_B u_I g_I t_I aa_I n_E
 भुना भुना bh_B u_I n_I aa_E
@@ -11041,7 +11031,6 @@ SIL SIL SIL_S
 मिलेंगे मिलेंगे m_B i_I l_I ee_I q_I g_I ee_E
 मिलेग मिलेग m_B i_I l_I ee_I g_E
 मिलेगा मिलेगा m_B i_I l_I ee_I g_I aa_E
-मिलेगाSIL मिलेगाSIL m_B i_I l_I ee_I g_I aa_I ax_I ou_E
 मिलेगाइसका मिलेगाइसका m_B i_I l_I ee_I g_I aa_I i_I s_I k_I aa_E
 मिलेगी मिलेगी m_B i_I l_I ee_I g_I ii_E
 मिलेगीयह मिलेगीयह m_B i_I l_I ee_I g_I ii_I y_I a_I h_E
@@ -11207,15 +11196,13 @@ SIL SIL SIL_S
 मूवीज मूवीज m_B uu_I w_I ii_I j_E
 मूवीस मूवीस m_B uu_I w_I ii_I s_E
 मूव्स मूव्स m_B uu_I w_I s_E
-मू़ड मू़ड m_B uu_I nk_I a_I dx_E
+मू़ड मू़ड m_B uu_I dx_E
 मृत मृत m_B rq_I t_E
 मृत्यु मृत्यु m_B rq_I t_I y_I u_E
 मृदा मृदा m_B rq_I d_I aa_E
 मे मे m_B ee_E
 में में m_B ee_I q_E
-में<horn> में<horn> m_B ee_I q_I nk_I aa_E
-मेंzला मेंzला m_B ee_I q_I nw_I l_I aa_E
-मेंं मेंं m_B ee_I q_I q_E
+मेंं मेंं m_B ee_I q_E
 मेंअंडर मेंअंडर m_B ee_I q_I a_I q_I dx_I a_I r_E
 मेंऐसे मेंऐसे m_B ee_I q_I ei_I s_I ee_E
 मेंच मेंच m_B ee_I q_I c_E
@@ -11286,7 +11273,7 @@ SIL SIL SIL_S
 मेहरा मेहरा m_B ee_I h_I r_I aa_E
 मेहरासोलहवीं मेहरासोलहवीं m_B ee_I h_I r_I aa_I s_I o_I l_I h_I a_I w_I ii_I q_E
 मेहिस्सा मेहिस्सा m_B ee_I h_I i_I s_I s_I aa_E
-मे़ मे़ m_B ee_I nk_E
+मे़ मे़ m_B ee_E
 मै मै m_B ei_E
 मैं मैं m_B ei_I q_E
 मैंगनीज मैंगनीज m_B ei_I q_I g_I a_I n_I ii_I j_E
@@ -11455,7 +11442,6 @@ SIL SIL SIL_S
 यशवंत यशवंत y_B a_I sh_I w_I a_I q_I t_E
 यस यस y_B a_I s_E
 यह यह y_B a_I h_E
-यह<bn> यह<bn> y_B a_I h_I a_I nk_I aa_E
 यहहाहाँ यहहाहाँ y_B a_I h_I h_I aa_I h_I aa_I mq_E
 यहा यहा y_B a_I h_I aa_E
 यहाँ यहाँ y_B a_I h_I aa_I mq_E
@@ -11746,9 +11732,9 @@ SIL SIL SIL_S
 रहै रहै r_B a_I h_I ei_E
 रहैं रहैं r_B a_I h_I ei_I q_E
 रहो रहो r_B a_I h_I o_E
-ऱंग ऱंग rx_B a_I q_I g_E
-ऱग ऱग rx_B a_I g_E
-ऱग् ऱग् rx_B a_I g_E
+ऱंग ऱंग r_B a_I q_I g_E
+ऱग ऱग r_B a_I g_E
+ऱग् ऱग् r_B a_I g_E
 रांची रांची r_B aa_I q_I c_I ii_E
 राइट राइट r_B aa_I i_I tx_E
 राइटिंग राइटिंग r_B aa_I i_I tx_I i_I q_I g_E
@@ -12524,7 +12510,6 @@ SIL SIL SIL_S
 लेंइससे लेंइससे l_B ee_I q_I i_I s_I s_I ee_E
 लेंगे लेंगे l_B ee_I q_I g_I ee_E
 लेकर लेकर l_B ee_I k_I a_I r_E
-लेकर<ct> लेकर<ct> l_B ee_I k_I r_I a_I nk_I aa_E
 लेकरि लेकरि l_B ee_I k_I r_I i_E
 लेकिन लेकिन l_B ee_I k_I i_I n_E
 लेक्चर लेक्चर l_B ee_I k_I c_I a_I r_E
@@ -13663,7 +13648,6 @@ SIL SIL SIL_S
 संदिग्ध संदिग्ध s_B a_I q_I d_I i_I g_I dh_E
 संदीप संदीप s_B a_I q_I d_I ii_I p_E
 संदेश संदेश s_B a_I q_I d_I ee_I sh_E
-संदेश<horn> संदेश<horn> s_B a_I q_I d_I ee_I sh_I a_I nk_I aa_E
 संदेह संदेह s_B a_I q_I d_I ee_I h_E
 संदेहास्पद संदेहास्पद s_B a_I q_I d_I ee_I h_I aa_I s_I p_I a_I d_E
 संधाम संधाम s_B a_I q_I dh_I aa_I m_E
@@ -13781,7 +13765,6 @@ SIL SIL SIL_S
 सकूं सकूं s_B a_I k_I uu_I q_E
 सके सके s_B a_I k_I ee_E
 सकें सकें s_B a_I k_I ee_I q_E
-सकेंSIL सकेंSIL s_B a_I k_I ee_I q_I ax_I ou_E
 सकेंग सकेंग s_B a_I k_I ee_I q_I g_E
 सकेंगे सकेंगे s_B a_I k_I ee_I q_I g_I ee_E
 सकेंगेअगले सकेंगेअगले s_B a_I k_I ee_I q_I g_I ee_I a_I g_I l_I ee_E
@@ -15297,7 +15280,7 @@ SIL SIL SIL_S
 हह हह h_B a_I h_E
 हहई हहई h_B a_I h_I ii_E
 हहै हहै h_B a_I h_I ei_E
-ह़ार ह़ार h_B a_I nk_I aa_I r_E
+ह़ार ह़ार h_B aa_I r_E
 हाँ हाँ h_B aa_I mq_E
 हां हां h_B aa_I q_E
 हांग हांग h_B aa_I q_I g_E
@@ -15446,7 +15429,6 @@ SIL SIL SIL_S
 हुँ हुँ h_B u_I mq_E
 हुंडई हुंडई h_B u_I q_I dx_I ii_E
 हुआ हुआ h_B u_I aa_E
-हुआSIL हुआSIL h_B u_I aa_I ax_I ou_E
 हुई हुई h_B u_I ii_E
 हुईं हुईं h_B u_I ii_I q_E
 हुए हुए h_B u_I ee_E
@@ -15499,12 +15481,7 @@ SIL SIL SIL_S
 हेल्पर हेल्पर h_B ee_I l_I p_I a_I r_E
 हेल्फर हेल्फर h_B ee_I l_I ph_I a_I r_E
 है है h_B ei_E
-है.कौनसी है.कौनसी h_B ei_I k_I ou_I n_I s_I ii_E
-है<bn> है<bn> h_B ei_I nk_I aa_E
-हैSIL हैSIL h_B ei_I ax_I ou_E
 हैं हैं h_B ei_I q_E
-हैं<horn> हैं<horn> h_B ei_I q_I nk_I aa_E
-हैंSIL हैंSIL h_B ei_I q_I ax_I ou_E
 हैंअध्ययन हैंअध्ययन h_B ei_I q_I a_I dh_I y_I a_I y_I a_I n_E
 हैंअप्रैल हैंअप्रैल h_B ei_I q_I a_I p_I r_I ei_I l_E
 हैंअभी हैंअभी h_B ei_I q_I a_I bh_I ii_E
@@ -15630,7 +15607,7 @@ SIL SIL SIL_S
 हैसियत हैसियत h_B ei_I s_I i_I y_I a_I t_E
 हैस्वामी हैस्वामी h_B ei_I s_I w_I aa_I m_I ii_E
 हैहम हैहम h_B ei_I h_I a_I m_E
-है़ है़ h_B ei_I nk_E
+है़ है़ h_B ei_E
 हैैरी हैैरी h_B ei_I ei_I r_I ii_E
 हॉकी हॉकी h_B ax_I k_I ii_E
 हॉज हॉज h_B ax_I j_E
@@ -15647,9 +15624,7 @@ SIL SIL SIL_S
 हॉस्टल हॉस्टल h_B ax_I s_I tx_I a_I l_E
 हॉस्पीटल हॉस्पीटल h_B ax_I s_I p_I ii_I tx_I a_I l_E
 हो हो h_B o_E
-होSIL होSIL h_B o_I ax_I ou_E
 हों हों h_B o_I q_E
-होंSIL होंSIL h_B o_I q_I ax_I ou_E
 होंग होंग h_B o_I q_I g_E
 होंगी होंगी h_B o_I q_I g_I ii_E
 होंगे होंगे h_B o_I q_I g_I ee_E

@@ -1,9 +1,9 @@
-a_B aa_B ae_B ax_B b_B bh_B c_B ch_B d_B dh_B dx_B dxh_B dxhq_B dxq_B ee_B ei_B f_B g_B gh_B gq_B h_B hq_B i_B ii_B j_B jh_B k_B kh_B khq_B l_B m_B mq_B n_B nd_B nj_B nk_B nw_B nx_B o_B ou_B p_B ph_B q_B r_B rq_B rx_B s_B sh_B sx_B t_B th_B tx_B txh_B u_B uu_B w_B y_B z_B zh_B 
-a_E aa_E ae_E ax_E b_E bh_E c_E ch_E d_E dh_E dx_E dxh_E dxhq_E dxq_E ee_E ei_E f_E g_E gh_E gq_E h_E hq_E i_E ii_E j_E jh_E k_E kh_E khq_E l_E m_E mq_E n_E nd_E nj_E nk_E nw_E nx_E o_E ou_E p_E ph_E q_E r_E rq_E rx_E s_E sh_E sx_E t_E th_E tx_E txh_E u_E uu_E w_E y_E z_E zh_E 
-a_I aa_I ae_I ax_I b_I bh_I c_I ch_I d_I dh_I dx_I dxh_I dxhq_I dxq_I ee_I ei_I f_I g_I gh_I gq_I h_I hq_I i_I ii_I j_I jh_I k_I kh_I khq_I l_I m_I mq_I n_I nd_I nj_I nk_I nw_I nx_I o_I ou_I p_I ph_I q_I r_I rq_I rx_I s_I sh_I sx_I t_I th_I tx_I txh_I u_I uu_I w_I y_I z_I zh_I 
-a_S aa_S ae_S ax_S b_S bh_S c_S ch_S d_S dh_S dx_S dxh_S dxhq_S dxq_S ee_S ei_S f_S g_S gh_S gq_S h_S hq_S i_S ii_S j_S jh_S k_S kh_S khq_S l_S m_S mq_S n_S nd_S nj_S nk_S nw_S nx_S o_S ou_S p_S ph_S q_S r_S rq_S rx_S s_S sh_S sx_S t_S th_S tx_S txh_S u_S uu_S w_S y_S z_S zh_S 
-SIL 
-SIL_B 
-SIL_E 
-SIL_I 
-SIL_S 
+AA_B AE_B AH_B AO_B AW_B AY_B B_B CH_B D_B DH_B EH_B ER_B EY_B F_B G_B HH_B IH_B IY_B JH_B K_B L_B M_B N_B NG_B OW_B OY_B P_B R_B S_B SH_B T_B TH_B UH_B UW_B V_B W_B Y_B Z_B ZH_B 
+AA_E AE_E AH_E AO_E AW_E AY_E B_E CH_E D_E DH_E EH_E ER_E EY_E F_E G_E HH_E IH_E IY_E JH_E K_E L_E M_E N_E NG_E OW_E OY_E P_E R_E S_E SH_E T_E TH_E UH_E UW_E V_E W_E Y_E Z_E ZH_E 
+AA_I AE_I AH_I AO_I AW_I AY_I B_I CH_I D_I DH_I EH_I ER_I EY_I F_I G_I HH_I IH_I IY_I JH_I K_I L_I M_I N_I NG_I OW_I OY_I P_I R_I S_I SH_I T_I TH_I UH_I UW_I V_I W_I Y_I Z_I ZH_I 
+AA_S AE_S AH_S AO_S AW_S AY_S B_S CH_S D_S DH_S EH_S ER_S EY_S F_S G_S HH_S IH_S IY_S JH_S K_S L_S M_S N_S NG_S OW_S OY_S P_S R_S S_S SH_S T_S TH_S UH_S UW_S V_S W_S Y_S Z_S ZH_S 
+SIL [NOISE] [VOCALIZED_NOISE] 
+SIL_B [NOISE]_B [VOCALIZED_NOISE]_B 
+SIL_E [NOISE]_E [VOCALIZED_NOISE]_E 
+SIL_I [NOISE]_I [VOCALIZED_NOISE]_I 
+SIL_S [NOISE]_S [VOCALIZED_NOISE]_S 
