@@ -13,5 +13,5 @@ for every push view a GitHub action trigger to be always up-to-date and maintain
 The `speech_to_text.sh` script follows through the entire decoding. For using the script on your local machine, just changing the `KALDI_ROOT` env variable would
 get you setup entirely. Please open an issue if there are any crashes or bugs so that it can be resolved as soon as possible. 
 
-The pre-trained weights are already loaded into this repo under the `exp/*` and can be used as such (results can be found [here](https://github.com/Syzygianinfern0/ASR-NPTEL-Challenge/tree/master/models)).
+The pre-trained weights are already loaded into this repo under the `exp/*` and can be used as such (results can be found [here](https://github.com/Speech-Lab-IITM/Hindi-ASR-Challenge/tree/master/asr)).
 The script must work out of the box for such weights trained with the Kaldi-ASR framework.
