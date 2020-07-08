@@ -42,4 +42,4 @@ WORKDIR ${HOME}
 USER ${USER}
 
 RUN git clone https://github.com/Syzygianinfern0/WAV2TEXT.git ${HOME}/WAV2TEXT -b master && \
-	echo "Revision: aa8a080b0cca2a10aac1d8b1cb284c856ad6710d"
+	echo "Revision: 4462bce8f83ae32945e28affb709558f9a58dc48"
